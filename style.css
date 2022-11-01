@@ -1,0 +1,122 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(233, 64, 64);
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+}
+
+.quote {
+  position: absolute;
+  width: 900px;
+  height: 600px;
+  z-index: 15;
+  top: 50%;
+  left: 50%;
+  margin-left: -400px;
+  margin-top: -300px;
+  background: white;
+}
+.quo {
+  width: 400px;
+  height: 80px;
+  position: absolute;
+  padding-right: 70px;
+  border-radius: 5px;
+  margin-left: 20;
+  top: 38px;
+  left: 50px;
+}
+
+.write-box img {
+  max-width: 130px;
+  min-height: 100px;
+  object-fit: contain;
+  border-radius: 5px;
+  color: rgb(229, 49, 82);
+  top: 55px;
+  left: 50px;
+}
+.write-box {
+  position: absolute;
+  left: 100px;
+  top: 20px;
+}
+
+.write {
+  color: rgb(233, 64, 64);
+  padding: 80px;
+  font-size: 40px;
+  line-height: 1.5;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  text-align: center;
+  margin-left: 50px;
+}
+.bird {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  top: 85%;
+  left: 10%;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.bird img {
+  max-width: 40px;
+  object-fit: contain;
+  padding: 0 !important;
+  border-radius: 5px;
+  color: rgb(229, 49, 82);
+}
+
+.twitter {
+  position: absolute;
+  top: 86.5%;
+  left: 22%;
+  background-color: rgba(246, 86, 86, 0.975);
+  width: 40px;
+  height: 41px;
+  color: white;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h3 {
+  font-size: 25px;
+}
+
+.new {
+  position: absolute;
+  width: 120px;
+  padding: 10px;
+  background-color: rgb(233, 64, 64);
+  color: white;
+  left: 75%;
+  top: 87%;
+  border-radius: 5px;
+  border: 1px solid rgb(233, 64, 64);
+  cursor: pointer;
+  font-size: 15px;
+}
+.producer {
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  color: white;
+}
+/* display: flex;
+  justify-content: center;
+  position: absolute;
+  width: 800px;
+  height: 800px;
+  z-index: 15;
+  top: 50%;
+  left: 50%;
+  margin: -100px 0 0 -150px;
+  background: white; */ ;
